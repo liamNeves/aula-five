@@ -1,107 +1,183 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Portfolio - John</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header class="header">
-    <div>
-<nav></nav>
-    </div>
 
-</header>
-    
-   
-    <img src="img/Ellipse 1.png"
-    alt="Ellipse"
-    class="img galeria">
+    <main class="portfolio">
 
-    <h1>Hi, I am John,</h1>
-<h1>Creative Technologist</h1>
-<p>Resumo: Amet minim mollit non deserunt ullamco est sit aliqua dolor
-<p>do amet sint. Velit officia consequat duis enim velit mollit.</p>
-<p> Exercitation veniam consequat sunt nostrud amet.</p>
-<button>Download Resume</button>
+        <!-- Apresentação -->
+        <header class="apresentacao conteudo">
+            <div class="texto-apresentacao">
+                <h1>Hi, I am John,<br>Creative Technologist</h1>
 
-<main>
+                <p class="descricao">
+                    Resume: Amet minim mollit non deserunt ullamco est
+                    sit aliqua dolor do amet sint. Velit officia consequat
+                    duis enim velit mollit.
+                </p>
 
-<!--formaçoes-->
+                <a class="botao" href="#">Download Resume</a>
+            </div>
 
-<section id="formaçoes" class="formaçoes-class">
-<h1>Making a design system from scratch</h1>
-<p>12 Feb 2020
-Design, Pattern</p>
-<p>Amet minim mollit non deserunt ullamco est sit </p>
-<p> dolor do amet sint. Velit officia consequat</p>
-<p>duis enim velit mollit. Exercitation veniam</p> 
-<p>consequat sunt nostrud amet.</p>
+            <img
+                class="foto-perfil"
+                src="img/Ellipse 1.png"
+                alt="Profile photo"
+            >
+        </header>
 
+        <!-- Formações -->
+        <section class="secao secao-azul">
+            <div class="conteudo">
+                <h2 class="titulo-secao">Recent posts</h2>
 
-<h2>Creating pixel perfect icons in Figma</h2>
-<p>12 Feb 2020 Figma, Icon Design</p>
-<p>Amet minim mollit non deserunt ullamco est sit</p>
-<p> aliqua dolor do amet sint. Velit officia consequat</p> 
-<p>duis enim velit mollit. Exercitation veniam</p>
-<p> sunt nostrud amet.</p>
+                <div class="lista-formacoes">
+                    <article class="cartao-formacao">
+                        <h3 class="titulo-cartao">
+                            Making a design system from scratch
+                        </h3>
 
-</section>
+                        <div class="informacoes">
+                            <span>12 Feb 2020</span>
+                            <span>Design, Pattern</span>
+                        </div>
 
-<!--experiencias-->
+                        <p class="descricao-cartao">
+                            Amet minim mollit non deserunt ullamco est sit
+                            aliqua dolor do amet sint. Velit officia consequat
+                            duis enim velit. Exercitation veniam consequat sunt
+                            nostrud amet.
+                        </p>
+                    </article>
 
-<section id="Experiencias" class="Experiencias-class">
-<p>Experiencias</p>
-<img src="img/Rectangle 30.png" alt="">
+                    <article class="cartao-formacao">
+                        <h3 class="titulo-cartao">
+                            Creating pixel perfect icons in Figma
+                        </h3>
 
-<h1>Designing Dashboards</h1>
-<p>2020
-Dashboard</p>
-<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit</p>
-<p>officia consequat duis enim velit mollit. Exercitation veniam consequat sunt</p> 
-<p>nostrud amet.</p>
+                        <div class="informacoes">
+                            <span>12 Feb 2020</span>
+                            <span>Figma, Icon Design</span>
+                        </div>
 
-<hr>
-<img src="img/Rectangle 32.png" alt="">
+                        <p class="descricao-cartao">
+                            Amet minim mollit non deserunt ullamco est sit
+                            aliqua dolor do amet sint. Velit officia consequat
+                            duis enim velit. Exercitation veniam consequat sunt
+                            nostrud amet.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-<p>2018
-Illustration</p>
+        <!-- Experiências -->
+        <section class="secao">
+            <div class="conteudo">
+                <h2 class="titulo-secao">Featured works</h2>
 
-<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit</p>
- <p>officia consequat duis enim velit mollit. Exercitation veniam consequat sunt</p>
-  <p>nostrud amet.</p>
+                <article class="item-experiencia">
+                    <img
+                        class="imagem-experiencia"
+                        src="img/Rectangle 30.png"
+                        alt="Dashboard project"
+                    >
 
-</section>
+                    <div class="texto-experiencia">
+                        <h3>Designing Dashboards</h3>
 
-<!--skills-->
+                        <div class="informacoes-experiencia">
+                            <span class="ano">2020</span>
+                            <span class="categoria">Dashboard</span>
+                        </div>
 
-<section id="skills" class="skills-class">
-    <p>skills</p>
-<img src="img/ChatGPT Image 8 de out. de 2025, 10_23_17 1.png" alt="">
-<h1>FrontEnd</h1>
-<p>Amet minim mollit non deserunt ullamco est sit</p> 
-<p> dolor do amet sint. Velit officia consequat</p>
- <p>duis enim velit mollit. Exercitation veniam</p> 
- <p>consequat sunt nostrud amet.</p>
+                        <p class="descricao-cartao">
+                            Amet minim mollit non deserunt ullamco est sit.
+                            Velit officia consequat duis enim velit mollit.
+                            Exercitation veniam consequat sunt nostrud amet.
+                        </p>
+                    </div>
+                </article>
 
- <img src="img/ChatGPT Image 8 de out. de 2025, 10_25_57 1.png" alt="">
- <h2>BackEnd</h2>
- <p>Amet minim mollit non deserunt ullamco est sit
-<p>aliqua dolor do amet sint. Velit officia consequat</p> <p> enim velit mollit. Exercitation veniam consequat</p> 
-<p> sunt nostrud amet.</p>
+                <article class="item-experiencia">
+                    <img
+                        class="imagem-experiencia"
+                        src="img/Rectangle 32.png"
+                        alt="Digital illustration"
+                    >
 
-</section>
+                    <div class="texto-experiencia">
+                        <h3>Vibrant Portraits of 2020</h3>
 
-<!--footer-->
+                        <div class="informacoes-experiencia">
+                            <span class="ano">2018</span>
+                            <span class="categoria">Illustration</span>
+                        </div>
 
-<section id="footer" class="footer-class"></section>
-<img src="img/fb.png" alt="footer">
-<img src="img/Group.png" alt="footer1">
-<img src="img/insta.png" alt="footer2">
-<img src="img/Linkedin.png" alt="footer3">
-<p>Copyright ©2020 All rights reserved </p>
-</section>
-</main>
+                        <p class="descricao-cartao">
+                            Amet minim mollit non deserunt ullamco est sit.
+                            Velit officia consequat duis enim velit mollit.
+                            Exercitation veniam consequat sunt nostrud amet.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="secao secao-azul">
+            <div class="conteudo">
+                <h2 class="titulo-secao">Skills</h2>
+
+                <div class="lista-habilidades">
+                    <article class="cartao-habilidade">
+                        <img src="img/ChatGPT Image 8 de out. de 2025, 10_23_17 1.png" alt="">
+                        <h3>FrontEnd</h3>
+
+                        <p>
+                            Amet minim mollit non deserunt ullamco est sit
+                            aliqua dolor do amet sint. Velit officia consequat
+                            duis enim velit mollit.
+                        </p>
+                    </article>
+
+                    <article class="cartao-habilidade">
+                        <img src="img/ChatGPT Image 8 de out. de 2025, 10_25_57 1.png" alt="">
+                        <h3>BackEnd</h3>
+
+                        <p>
+                            Amet minim mollit non deserunt ullamco est sit
+                            aliqua dolor do amet sint. Velit officia consequat
+                            duis enim velit mollit.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rodapé -->
+        <footer class="rodape">
+          <img src="img/fb.png" alt="">
+          <img src="img/Group.png" alt="">
+          <img src="img/insta.png" alt="">
+          <img src="img/Linkedin.png" alt="">
+
+           <p>©2020 All rights reserved</p>
+        </footer>
+
+    </main>
+
 </body>
 </html>
-
